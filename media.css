@@ -1,0 +1,66 @@
+@media (max-width: 768px){
+    .maincon{
+        flex-direction: column-reverse;
+    }
+    .container2{
+        padding: 1rem;
+    }
+    .mainqr{
+        align-self: center;
+    }
+    .head{
+        padding: 2rem 0 2rem 1rem;
+        gap: 0;
+    }
+    .head img{
+        padding: 0.4rem;
+    }
+    .main h1{
+        font-size: 2.8rem;
+    }
+    .main p{
+        text-align: center;
+        align-items: start;
+        gap: 0;
+    }
+    .maininfo{
+        margin-top: 3rem;
+    }
+    .maininfo h2{
+        text-align: center;
+    }
+    .maininfo ol li{
+        line-height: 1.5;
+        margin-top: 1rem;
+    }
+    .maininfo a{
+        gap: 0;
+        margin-right: -4px;
+    }
+    .lcon {
+        flex-direction: column;
+    }
+    .ip {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lcon img{
+        display: none;
+    }
+    .lcon p {
+        width:21rem;
+    }
+    .f1{
+        gap: 10px;
+    }
+    .f1 p{
+        margin: 0;
+        font-size: 1.6rem;
+    }
+    .smcon {
+        flex-direction: column;
+    }
+    .s1{
+        width: 100%;
+    }
+}
